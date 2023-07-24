@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #333;
+}
+
+main {
+  max-width: 600px;
+  margin: 80px auto 20px;
+}
+
+.beer-list {
+  list-style: none;
+}
+
+.beer-item {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.beer-item:hover {
+  background-color: #d6d6d6;
+}
+
+.beer-item.selected {
+  background-color: #f44336;
+}
+
+.beer-page-container {
+  color: #f7f7f7;
+}
