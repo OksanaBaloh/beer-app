@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { App } from './App';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { BeerPage } from './pages/BeerPage';
 import { MainPage } from './pages/MainPage';
 import { NotFoundPage } from './pages/NotFoundPage';
@@ -16,7 +16,7 @@ const theme = createTheme({
   }
 });
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,

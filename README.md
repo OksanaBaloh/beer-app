@@ -5,7 +5,7 @@ Easily select and delete recipes with a right-click or explore detailed instruct
 
 ## Demo
 
-You can view a live demo of the app [HERE](https://oksanabaloh.github.io/beer-app/).
+You can view a live demo of the app [HERE](https://oksanabaloh.github.io/beer-recipes-app/).
 
 ## Technologies
 
